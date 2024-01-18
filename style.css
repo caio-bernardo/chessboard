@@ -1,0 +1,31 @@
+:root {
+    --square-length: 12vh;
+}
+
+body {
+    margin: 0px;
+}
+
+#root {
+    display: flex;
+    justify-content: center;
+}
+
+tr {
+    display: grid;
+    grid-template-columns: repeat(8, auto);
+}
+
+td {
+    display: block;
+    width: var(--square-length);
+    height: var(--square-length);
+}
+
+.light-square {
+    background-color: bisque;
+}
+
+.dark-square {
+    background-color: black;
+}
